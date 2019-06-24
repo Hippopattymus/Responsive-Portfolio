@@ -191,7 +191,7 @@ input[name="email"]:focus {
 } */
 
 
-/* input[type=button], input[type=submit], input[type=reset] {
+input[type=button], input[type=submit], input[type=reset] {
   background-color: #4aaaa5;
   border: none;
   color: white;
@@ -199,7 +199,7 @@ input[name="email"]:focus {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-}   */
+}  
 
 
 footer {
@@ -220,7 +220,177 @@ footer {
     display: block;
     clear: both;
 }
+@media only screen and (max-width: 980px) {
+    #first {
+        width: ;
+        margin-left: 20px;
+        text-align: center;
+        padding: ;
+    }
+    nav {     
+        float: ;
+        padding:15px 20px 0 0;
+        background-color: white;      
+    }
+    .navi{
+        width: 100%;
+        background-color: white;
+    }
+    .main{
+        width: 728px;
+        border: none;
+        margin: 20px;
+        margin-top: 30px;
+        min-height: 75%;
+    } 
+    .content {
+        width: 768px;
+        border: none;
+    }
+    hr {
+        width: 688px;
+    }
+    .description{
+        padding-right: 10px;
+    }
+    img {
+        width: 100%; 
+        height: auto;
+    }
+    .profile {
+        width: 40%;
+        height: auto;
+    }
+    #name, #msg, #email {
+        width: 95%;
+    }
+    .pim {
+        width: 50%;
+        height: auto;
+        padding: 0;
+        background-color: white;
+        
+    }
+
+    .pim img {
+        height: 300px;
+        
+    }
+
+    .pim p {
+        width: 90%;
+        left: 0;
+        margin: 0;
+        padding-left:0;
+        margin-left: 5%;
+        bottom: 75px;
+        align-content: center;
+        
+    }
+
+    .pimp {
+        margin-bottom: 50px;
+    }
+
+    .images {
+        background-color: white;
+        margin: 20px 0 0 0px ;
+        padding: 0;
+        min-height: auto;
+        width: 728px;
+    }
+
+    footer {
     
+        width: 100%;
+    }
+}     
+}
+@media only screen and (max-width: 768px) {
+    #first {
+        width: ;
+        margin-left: 20px;
+        text-align: center;
+        padding: ;
+    }
+    nav {     
+        float: ;
+        padding:15px 20px 0 0;
+        background-color: white;      
+    }
+    .navi{
+        width: 100%;
+        background-color: white;
+    }
+    .main{
+        width: 728px;
+        border: none;
+        margin: 20px;
+        margin-top: 30px;
+        min-height: 75%;
+    } 
+    .content {
+        width: 768px;
+        border: none;
+    }
+    hr {
+        width: 688px;
+    }
+    .description{
+        padding-right: 10px;
+    }
+    img {
+        width: 100%; 
+        height: auto;
+    }
+    .profile {
+        width: 40%;
+        height: auto;
+    }
+    #name, #msg, #email {
+        width: 95%;
+    }
+    .pim {
+        width: 50%;
+        height: auto;
+        padding: 0;
+        background-color: white;
+        
+    }
+
+    .pim img {
+        height: 300px;
+        
+    }
+
+    .pim p {
+        width: 90%;
+        left: 0;
+        margin: 0;
+        padding-left:0;
+        margin-left: 5%;
+        bottom: 75px;
+        align-content: center;
+        
+    }
+
+    .pimp {
+        margin-bottom: 50px;
+    }
+
+    .images {
+        background-color: white;
+        margin: 20px 0 0 0px ;
+        padding: 0;
+        min-height: auto;
+        width: 728px;
+    }
+
+    footer {
+    
+        width: 100%;
+    }
+}    
 @media only screen and (max-width: 640px) {
     #first {
         width: 640px;
@@ -300,6 +470,10 @@ footer {
         
     }
 
+    .pimp {
+        margin-bottom: 50px;
+    }
+
     .images {
         background-color: white;
         margin: 20px 0 0 0px ;
@@ -307,7 +481,6 @@ footer {
         min-height: auto;
         width: 600px;
     }
-
     footer {
     
         width: 100%;
@@ -315,15 +488,4 @@ footer {
     
 }
 
-  @media only screen and (max-width: 768px) {
-    body {
-      background-color: 
-    }
-  }
-
-  @media only screen and (max-width: 980px) {
-    body {
-      background-color: ;
-    }
-  }
 
