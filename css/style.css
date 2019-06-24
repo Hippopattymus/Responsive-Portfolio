@@ -92,10 +92,7 @@ hr {
     
     
 }
-img {
-    align-content:
-    
-}
+
 .description {
     padding-top: 25px;
     
@@ -135,7 +132,7 @@ img {
 }
 form {
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
     line-height: 24px;
     
 
@@ -200,13 +197,10 @@ footer {
 
 @media only screen and (max-width: 980px) {
     #first {
-        width: ;
         margin-left: 20px;
         text-align: center;
-        padding: ;
     }
     nav {     
-        float: ;
         padding:15px 20px 0 0;
         background-color: white;      
     }
@@ -285,15 +279,14 @@ footer {
 }     
 @media only screen and (max-width: 768px) {
     #first {
-        width: ;
         margin-left: 20px;
         text-align: center;
-        padding: ;
     }
     nav {     
-        float: right;
+        
         padding:15px 20px 0 0;
-        background-color: white;      
+        background-color: white;   
+         
     }
     .navi{
         width: 100%;
@@ -307,7 +300,7 @@ footer {
         min-height: 75%;
     } 
     .content {
-        
+        width: 768px;
         border: none;
         margin: 0;
     }
